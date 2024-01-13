@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #050801;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+img {
+  font-family: "Lexend Deca", sans-serif;
+  transition: all ease 0.6s;
+}
+img:hover {
+  box-shadow: 0 0 35px 4px #03e9f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* margin-top: 5rem; */
+  max-width: 40%;
+  max-height: 20%;
+  margin: auto;
+}
+
+h1 {
+  max-width: 80%;
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 4.8rem;
+  margin-top: 5rem;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+textarea {
+  display: flex;
+  padding: 0.8rem 0.5rem;
+  /* border: 1px solid #fff; */
+  transition: all ease 0.6s;
+}
+
+textarea:hover {
+  cursor: copy;
+  box-shadow: 0 0 25px 4px #03e9f4;
+}
+
+.parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+/*------ Style 1 ------*/
+.style1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.style1::-webkit-color-swatch {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.style1::-moz-color-swatch {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+/* -------------Buttons-------------- */
+
+button {
+  width: 40%;
+  position: relative;
+  background-color: #050801;
+  display: flex;
+  padding: 2.5rem 2rem;
+  margin: 5rem auto;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+  margin-bottom: 10rem;
+}
+
+.blue-btn {
+  max-width: 60%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #03e9f4;
+  border: 1.5px solid #03e9f4;
+  border-radius: 7px;
+}
+.blue-btn:hover {
+  background-color: #03e9f4;
+  color: #050801;
+  box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4,
+    0px 0px 100px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
